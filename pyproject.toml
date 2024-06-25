@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "csv-reparse"
+version = "0.1.0"
+description = ""
+authors = ["Starlight Galaxy <github@starlight.lgbt>"]
+readme = "README.md"
+license = "WTFPL"
+packages = [{ include = "csv-reparse" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
